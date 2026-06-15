@@ -30,5 +30,5 @@ name=["avk","vk","av"]
 score=[20,30,40]
 grades=["A","B","C"]
 
-for names,scores,grade in zip(name,score,grades):
+for names,scores,grade in name,score,grades:
     print(f"{names} : {scores} ({grade})")
