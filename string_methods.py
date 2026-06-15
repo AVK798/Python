@@ -9,3 +9,10 @@ print(s.find("Hi"))
 print(s.startswith("Hi"))
 print(s.endswith("world"))
 print(s.split( ))
+
+# join is oppsite to split
+
+keys = ["Muy", "Name","is", "Krishna"]
+
+final = "".join(keys)
+print(final)
