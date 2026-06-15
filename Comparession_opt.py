@@ -8,5 +8,5 @@ print(x <= y)
 print(x>= y)
 
 
-age = 25
+age = 12
 print(18 <= age < 65) 
