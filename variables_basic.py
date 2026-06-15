@@ -11,7 +11,7 @@ a,b,c=10,20,30
 d,e,f=40, "fifty",60
 
 #same value to multiple variables
-g,h,i=3
+g=h=i=3
 
 print(_Name)
 print(e)
