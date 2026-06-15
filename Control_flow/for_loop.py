@@ -24,3 +24,11 @@ tech=["Go","java","nodejs","nginx"]
 
 for index, skill in enumerate(tech):
     print(f"{index} : {skill}")
+
+#zip() — iterate multiple iterables in parallel
+name=["avk","vk","av"]
+score=[20,30,40]
+grades=["A","B","C"]
+
+for names,scores,grade in zip(name,score,grades):
+    print(f"{names} : {scores} ({grade})")
