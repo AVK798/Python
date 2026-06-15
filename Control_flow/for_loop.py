@@ -8,7 +8,7 @@ for i in list:
 
 for s in range(5):
     print(s, end='*')
-
+    break
 
 #range(start, stop, step)
 for n in range(1,20,3):
