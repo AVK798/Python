@@ -17,3 +17,10 @@ for n in range(1,20,3):
 # iterate a string
 for c in "python":
     print(c, end=' ')
+
+#enumerate() — index + value together
+
+tech=["Go","java","nodejs","nginx"]
+
+for index, skill in enumerate(tech):
+    print(f"{index} : {skill}")
