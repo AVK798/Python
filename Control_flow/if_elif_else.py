@@ -7,3 +7,4 @@ elif score >=80:
 else:
     grade = "C"
 
+print(f"score: {score} and grade is: {grade}")
