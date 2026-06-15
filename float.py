@@ -17,3 +17,4 @@ print(math.floor(3.5))  # down
 print(math.sqrt(32)) 
 print(math.ceil(4.5))   # up
 print(abs(6.7))
+print(round(2.3))
