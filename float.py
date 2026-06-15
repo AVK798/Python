@@ -6,10 +6,10 @@ small=2.5e-4
 
 print(0.1 + 0.2)
 
-print(round(0.1 + 0.2), 5)
+print(round(0.1 + 0.2, 5))
 
 
-# useful flaot functions
+# useful float functions
 
 import math
 
