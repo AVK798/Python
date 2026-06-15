@@ -1,7 +1,7 @@
-a=1
-while a < 5:
- print(a, end='-')
- a+=1
+# a=1
+# while a < 5:
+#  print(a, end='-')
+#  a+=1
 #do-while pattern (Python has no do-while keyword)
 user_input = ""
 while True:
