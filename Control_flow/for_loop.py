@@ -12,4 +12,4 @@ for s in range(5):
 
 #range(start, stop, step)
 for n in range(1,20,3):
-    print(n, end='')
+    print(n, end=" ")
