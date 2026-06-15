@@ -14,5 +14,5 @@ print(s.split( ))
 
 keys = ["Muy", "Name","is", "Krishna"]
 
-final = "".join(keys)
+final = " ".join(keys)
 print(final)
