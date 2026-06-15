@@ -18,3 +18,6 @@ print(f"my Name is {Name}" + " " + f"and the age is {age}")
 # Raw strings
 path=r"c:/programfiles/java"
 print(path)
+
+line = "+" * 30
+print(line)
