@@ -13,7 +13,7 @@ print(multiple)
 
 full = "hello" + " " + "World !"
 Name, age= "AVK", 25
-print(f"my Name is{Name}" + " " + "and the age is {age}")
+print(f"my Name is {Name}" + " " + f"and the age is {age}")
 
 # Raw strings
 path=r"c:/programfiles/java"
