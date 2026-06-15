@@ -16,4 +16,4 @@ import math
 print(math.floor(3.5))
 print(math.sqrt(32))
 print(math.ceil(4.5))
-print(math.abs(6.7))
+print(abs(6.7))
