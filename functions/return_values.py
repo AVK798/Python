@@ -1,7 +1,7 @@
 def single(n):
     return n * n
 
-single(4)
+print(single(4))
 
 def multiple(z):
     return min(z), max(z)
