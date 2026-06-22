@@ -26,3 +26,10 @@ def args(**list):
       print(f'{key}:{value}')
 
 args(name="avk")
+
+# 6. Combined — positional, *args, keyword-only, **kwargs
+def demo(a, b, *args, verbose=False, **kwargs):
+ print(a, b, args, verbose, kwargs)
+
+demo(1, 2, 3, 4, verbose=True, x=10)
+# 1 2 (3, 4) True {"x": 10}
