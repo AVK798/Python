@@ -6,7 +6,7 @@ single(4)
 def multiple(z):
     return min(z), max(z)
 
-low, high=multiple(1,2,3,76,24,45,2)
+low, high=multiple([1,2,3,76,24,45,2])
 
 print(f'{low}, {high}')
 
