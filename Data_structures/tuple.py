@@ -1,7 +1,8 @@
-tup =(10, 30)
+tup =(10, 30, 10)
 
 #tup.append(40)
 tup1=(42,)
+print(tup)
 print(tup1)
 
 # Parentheses are optional (packing)
