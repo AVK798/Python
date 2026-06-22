@@ -3,3 +3,10 @@ def name(tell):
     return f"Hello, {tell}"
 
 print(name("AVK"))
+
+# Function with no return value returns None
+
+def set(char='-', length=20):
+    print(char * length)
+
+set("*", 10)
