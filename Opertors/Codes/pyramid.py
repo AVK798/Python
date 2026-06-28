@@ -32,7 +32,27 @@
 
 ##############################
 
-f=5
-for i in range(1,f+1):
-    print(' '*(f-i),end='')
-    print('1'*i)
+# f=5
+# for i in range(1,f+1):
+#     print(' '*(f-i),end='')
+#     print('1'*i)
+
+#################################
+
+# d=5
+# for i in range(1,d+1):
+#     print(" "*(d-i),end='')
+#     print("*"*(2*i-1))
+# for j in range(1,d+1):
+#     print(" "*(j), end='')
+#     print("*"*(2*(d-j)-1))
+
+################################
+
+h=5
+for i in range(1,h+1):
+    #for j in range(i):
+    #print(' '*(h-i),end='')
+     print ( str(i) * i)
+    #  print(i, end='')
+    # print()
